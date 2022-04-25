@@ -3,4 +3,4 @@
  * - for BlHeli
  */
 
-void process_serial(int pin);
+void processPassthrough(int pin);

@@ -10,7 +10,7 @@ uint16_t serial_buffer_len = 0;
 
 bool serial_command = false;
 
-void process_serial(int pin) {
+void processPassthrough(int pin) {
   SERVO_OUT = pin;
   if (Serial.available()) {
     delay(10);
