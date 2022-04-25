@@ -3,4 +3,4 @@
  * - for BlHeli
  */
 
-void process_serial(void);
+void process_serial(int pin);
